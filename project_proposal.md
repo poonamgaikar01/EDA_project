@@ -12,7 +12,7 @@ Perform data analysis on the MTA turnstile data to:
 
 This way kids can travel safely using MTA to attend the event.
 
-*Benifits:
+*Benefits*:
 1. This provides the most optimal time window for the kids and their families to travel using MTA.
 2. Once the optimal time window has be determined, MTA can then plan additional security during the time slots throughout the transit system.
 
@@ -30,7 +30,7 @@ Perform data analysis on the MTA turnstile data to:
 2. Suggesttop 10 stations suitable for restaurant location.
 
 
-*Benifits*:
+*Benefits*:
 
 1. Restaurant chain will use this data to plan for setting up the restaurants.
 2. They also plan to use data around neighborhoods most impacted by COVID. Neighboorhoods with most impact and with good traffic will be the optimun once to setup the restaurant.
