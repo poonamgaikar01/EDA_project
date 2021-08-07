@@ -3,7 +3,7 @@ MTA Kids time [exploratory data analysis]
 
 #Question/need:
 
-The New York City Department of Education is planing to host annual competition for middle school students at Barclays Center. These games will be held over a period of 1 week. As part of this, around 3000 students (participating and attending) need to use MTA as transport mechanism to the stadium.
+The New York City Department of Education is planing to host annual sports competition for middle school students at Barclays Center. These games will be held over a period of 1 week. As part of this, around 3000 students (participating and attending) need to use MTA as transport mechanism to the stadium.
 
 # Purpose of the model/system:
 
