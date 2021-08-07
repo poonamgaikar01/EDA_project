@@ -1,26 +1,27 @@
 #mta_eda
 MTA Kids time [exploratory data analysis]
 
-#Question/need:
+###Question/need:
 
 The New York City Department of Education is planing to host annual sports competition for middle school students at Barclays Center. These games will be held over a period of 1 week in summer . As part of this, around 3000 students (participating and attending) need to use MTA as transport mechanism to the stadium.
 
-# Purpose of the model/system:
+## Purpose of the model/system:
 
 Perform data analysis on the MTA turnstile data to:
 
 1. Find out lowest entry volume for following stations per week for summer season( May to July):
-  The closest stations to Barclays Center are:
--
-    1.Atlantic Av/Flatbush Av is 97 yards away, 3 min walk.
-    2.Flatbush Av/5 Av is 142 yards away, 3 min walk.
-    3.Flatbush Av/Atlantic Av is 167 yards away, 3 min walk.
-    4.Atlantic Av - Barclays Ctr [B,D,N,Q,R,2,3,4,5] is 211 yards away, 4 min walk.
-    5.Dean St/5 Av is 236 yards away, 4 min walk.
-    6.Atlantic Terminal is 242 yards away, 4 min walk.
-    7.5 Av/Bergen St is 244 yards away, 4 min walk.
-    8.Fulton St [G] is 535 yards away, 7 min walk.
-    9.Lafayette Av [A,C] is 542 yards away, 8 min walk.
+
+  **The closest stations to Barclays Center are:**
+
+    1. Atlantic Av/Flatbush Av is 97 yards away, 3 min walk.
+    2. Flatbush Av/5 Av is 142 yards away, 3 min walk.
+    3. Flatbush Av/Atlantic Av is 167 yards away, 3 min walk.
+    4. Atlantic Av - Barclays Ctr [B,D,N,Q,R,2,3,4,5] is 211 yards away, 4 min walk.
+    5. Dean St/5 Av is 236 yards away, 4 min walk.
+    6. Atlantic Terminal is 242 yards away, 4 min walk.
+    7. 5 Av/Bergen St is 244 yards away, 4 min walk.
+    8. Fulton St [G] is 535 yards away, 7 min walk.
+    9. Lafayette Av [A,C] is 542 yards away, 8 min walk.
 
   Note: The reason behind these selecting these stations is their proximity to Barclays center as metioned here.
   https://moovitapp.com/index/en/public_transit-Barclays_Center-NYCNJ-site_19034075-121
@@ -34,7 +35,7 @@ This way kids can travel safely using MTA to attend the event.
 1. This provides the most optimal time window for the kids and their families to travel using MTA.
 2. Once the optimal time window has be determined, MTA can then plan additional security during the time slots throughout the transit system.
 
-# Data Description
+## Data Description
 
 1. We plan to use the MTA turnstile data and dataset showing job loss by neighborhood (for second idea. Is this available?)
 2. Following is are the fields in MTA turnstile:
