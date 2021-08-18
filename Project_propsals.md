@@ -37,44 +37,25 @@ This way kids can travel safely using MTA to attend the event.
 
 ## Data Description
 
-1. We plan to use the MTA turnstile data and dataset showing job loss by neighborhood (for second idea. Is this available?)
-2. Following is are the fields in MTA turnstile:
-
-
+ Following is are the fields in MTA turnstile:
 `
 C/A,UNIT,SCP,STATION,LINENAME,DIVISION,DATE,TIME,DESC,ENTRIES,EXITS
 `
-
 Below is the description of each field:
-
 C/A      = Control Area (A002)
-
 UNIT     = Remote Unit for a station (R051)
-
 SCP      = Subunit Channel Position represents an specific address for a device (02-00-00). This is the turnstile unique with a Control Area / Unit.
-
 STATION  = Represents the station name the device is located at
-
 LINENAME = Represents all train lines that can be boarded at this station
            Normally lines are represented by one character.  LINENAME 456NQR repersents train server for 4, 5, 6, N, Q, and R trains.
-
-DIVISION = Represents the Line originally the station belonged to BMT, IRT, or IND  
-DATE     = Represents the date (MM-DD-YY)
-
+DIVISION = Represents the Line originally the station belonged to BMT, IRT, or IND  DATE     = Represents the date (MM-DD-YY)
 TIME     = Represents the time (hh:mm:ss) for a scheduled audit event
-
 DESc     = Represent the "REGULAR" scheduled audit event (Normally occurs every 4 hours)
 
-1. Audits may occur more that 4 hours due to planning, or troubleshooting activities.
-2. Additionally, there may be a "RECOVR AUD" entry: This refers to a missed audit that was recovered.
-
 ENTRIES  = The comulative entry register value for a device
-
 EXIST    = The cumulative exit register value for a device
 
-
 Details of the data:
-
 - The readings occur every 4 hours
 - The 4-hour observation windows are not the same for all turnstiles
 - Each control area is in a “remote unit”. Remote unit generally represents a single station, but some stations and station complexes have several associated remote unit ids.
